@@ -12,9 +12,9 @@ export default function AboutSection() {
         <Gallery />
       </div>
       <div className='flex flex-col gap-8 md:w-1/2 py-8 md:py-16 '>
-        <div className='flex justify-end'>
+        <div className='flex md:justify-end'>
           <div
-            className='w-1/3 md:w-1/2 pr-8'
+            className='w-1/3 md:w-1/2 pl-8 sm:pl-16 md:pr-8 md:pl-0'
             style={{
               background:
                 "linear-gradient(to bottom, #FFFFFF00 65%,  #f6dB00 35%)",
@@ -24,7 +24,7 @@ export default function AboutSection() {
           </div>
         </div>
         <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-8 lg:px-16'>
-          <Typography variant='body1' additionalStyles="text-neutral-600">
+          <Typography variant='body1' additionalStyles='text-neutral-600'>
             I&apos;m currently pursuing my degree in Computer Science at{" "}
             <span className='font-bold'>
               {" "}
@@ -33,21 +33,19 @@ export default function AboutSection() {
             . As a third-year student, I found that my passion lies in web
             development and software engineering.
           </Typography>
-          <Typography variant='body1' additionalStyles="text-neutral-600">
+          <Typography variant='body1' additionalStyles='text-neutral-600'>
             Being a student at one of the most prestigious universities in
             Indonesia unlocks many posibilities for me. I have a chance to meet
             amazing people and supportive friends who share similiar passions.
           </Typography>
 
-          <Button>
-            <a
-              href='https://drive.google.com/file/d/1rCh8wXwEYRUZTUljHVNiuV2Y2xRJi98T/view?usp=sharing'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              View My CV
-            </a>
-          </Button>
+          <a
+            href='https://drive.google.com/file/d/1rCh8wXwEYRUZTUljHVNiuV2Y2xRJi98T/view?usp=sharing'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Button>View My CV</Button>
+          </a>
         </div>
       </div>
     </section>
