@@ -8,7 +8,7 @@ export const typographyStyles = {
   subheading1: "text-lg lg:text-xl",
   subheading2: "text-sm",
   body1:
-    "relative tracking-wide text-sm sm:text-base lg:text-lg text-neutral-700 font-poppins",
+    "relative tracking-wide text-sm sm:text-base lg:text-lg font-poppins",
   body2: "text-base font-poppins",
   caption: "text-xs",
 };

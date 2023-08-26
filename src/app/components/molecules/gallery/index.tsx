@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Typography from "../../atoms/typhography";
 
 export default function Gallery() {
   return (
@@ -9,11 +10,14 @@ export default function Gallery() {
           src='/images/album/1.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          Bukber BETIS 2023
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          BETIS 2023
+        </Typography>
       </div>
 
       <div className='col-span-4 relative flex justify-center items-center p-8 text-center'>
@@ -22,11 +26,14 @@ export default function Gallery() {
           src='/images/album/8.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          PSAF Day-2 PMB 2022
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          PMB 2022
+        </Typography>
       </div>
 
       <div className='col-span-4 row-span-2 relative flex justify-center items-center p-8 text-center'>
@@ -35,23 +42,30 @@ export default function Gallery() {
           src='/images/album/9.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
           Tiket.com company visit
-        </div>
+        </Typography>
       </div>
+
       <div className='col-span-3 relative flex justify-center items-center p-8 text-center'>
         <Image
           fill
           src='/images/album/7.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          COMPFEST 14 Awarding Night
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          COMPFEST 14
+        </Typography>
       </div>
 
       <div className='col-span-5 relative flex justify-center items-center p-8 text-center'>
@@ -60,11 +74,14 @@ export default function Gallery() {
           src='/images/album/4.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          Ristek 2023 Q1 Award
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          RISTEK 2023
+        </Typography>
       </div>
 
       <div className='col-span-5 relative flex justify-center items-center p-8 text-center'>
@@ -73,11 +90,14 @@ export default function Gallery() {
           src='/images/album/2.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          BETIS 2023 Closing Ceremony
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          BETIS 2023
+        </Typography>
       </div>
 
       <div className='col-span-4 relative flex justify-center items-center p-8 text-center'>
@@ -86,11 +106,14 @@ export default function Gallery() {
           src='/images/album/3.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          Ristek 2023 Q1 Award
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          RISTEK 2023
+        </Typography>
       </div>
 
       <div className='col-span-3 relative flex justify-center items-center p-8 text-center'>
@@ -99,11 +122,14 @@ export default function Gallery() {
           src='/images/album/6.jpg'
           alt={""}
           style={{ objectFit: "cover" }}
-          className='hover:brightness-50 transition z-20 hover:z-0'
+          className='hover:brightness-50 transition will-change-transform duration-300 z-20 hover:z-0'
         />
-        <div className='transform z-10 text-white pointer-events-none'>
-          EDUCARE 2023 WebDev Workshop
-        </div>
+        <Typography
+          variant='body1'
+          additionalStyles='z-10 pointer-events-none text-custom-almost-white'
+        >
+          EDUCARE 2023
+        </Typography>
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         "custom-off-white": "#ddd",
         "custom-off-black": "#222",
+        "custom-almost-white": "#f7f7f7",
       },
       fontFamily: {
         ubuntu: "var(--font-ubuntu)",
