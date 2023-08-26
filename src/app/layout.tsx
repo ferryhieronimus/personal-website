@@ -1,5 +1,5 @@
 import "./globals.css";
-import { lato } from "./font";
+import { poppins, ubuntu } from "../fonts";
 
 export default function RootLayout({
   children,
@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={(lato.className)}>{children}</body>
+      <body className={`${poppins.variable} ${ubuntu.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,22 +1,20 @@
-import About from "@/components/banner/About";
-import Education from "@/components/banner/Education";
-import Experience from "@/components/banner/Experience";
-import Intro from "@/components/Intro";
-import Navbar from "@/components/shared/Header";
-import Projects from "@/components/banner/Projects";
-import Footer from "@/components/shared/Footer";
+import Navbar from "@/app/components/molecules/navbar";
+import HeroSection from "@/app/components/organisms/hero-section";
+import AboutSection from "@/app/components/organisms/about-section";
+import ExpSection from "@/app/components/organisms/exp-section";
+import ProjectsSection from "@/app/components/organisms/projects-section";
+import Footer from "@/app/components/molecules/footer";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <main className='flex flex-col items-center justify-center'>
-        <Intro />
+        <HeroSection />
         <div id='wrapper' className='w-full z-20'>
-          <About />
-          <Education />
-          <Experience />
-          <Projects />
+          <AboutSection />
+          <ExpSection />
+          <ProjectsSection />
         </div>
       </main>
       <Footer />
