@@ -3,9 +3,9 @@ import { poppins, ubuntu } from "../fonts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ferry",
+  title: "Hieronimus Ferry",
   description:
-    "Hi! I&apos;m Ferry, a computer science student with a passion and love for software engineering.",
+    "Hi! I'm Ferry, a computer science student with a passion and love for software engineering.",
   icons: [
     {
       rel: "icon",
