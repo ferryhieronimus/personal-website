@@ -13,7 +13,7 @@ export default function Footer() {
       <div className='flex flex-wrap min-w-full items-center justify-between bg-custom-off-black p-8 md:p-12 gap-4'>
         <div className='text-custom-off-white'>
           <Typography variant='body2' additionalStyles='text-white'>
-            © 2023 Ferry
+            © {new Date().getFullYear()} Ferry
           </Typography>
           <Typography variant='body2' additionalStyles='text-white'>
             Contact me at{" "}

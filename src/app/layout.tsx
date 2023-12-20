@@ -5,7 +5,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Hieronimus Ferry",
   description:
-    "Hi! I'm Ferry, a computer science student with a passion and love for software engineering.",
+    "Hello! I'm Ferry, a computer science student with a passion and love for software engineering. I'm currently pursuing my degree in Computer Science at Faculty of Computer Science, Universitas Indonesia. ",
   icons: [
     {
       rel: "icon",

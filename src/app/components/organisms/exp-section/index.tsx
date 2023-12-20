@@ -21,15 +21,15 @@ export default function ExpSection() {
             <Typography variant='h2'>Experience</Typography>
           </div>
         </div>
-        <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-8 lg:px-16 md:pb-8'>
+        <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-4 lg:px-16 md:pb-8'>
           <Typography variant='body1' additionalStyles="text-neutral-700">
             Apart from my technical skills, I am also eager to develop a variety
             of soft skills, including{" "}
             <span className='font-bold'> leadership</span>,{" "}
             <span className='font-bold'> teamwork</span>,{" "}
             <span className='font-bold'> communication</span>, and{" "}
-            <span className='font-bold'> adaptability</span>. This leads me to
-            actively involved in a broad range of committees and activities.
+            <span className='font-bold'> adaptability</span>.
+            This leads me to actively participate in a broad range of committees, organizations, and activities at my college.
             Below are some technologies I&apos;ve been working with:
           </Typography>
           <GlowWrapper opacity={0.9}>

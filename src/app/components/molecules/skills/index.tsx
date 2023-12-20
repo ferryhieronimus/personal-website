@@ -6,6 +6,11 @@ import expressIcon from "../../../../../public/images/logos/express.svg";
 import gitIcon from "../../../../../public/images/logos/git.svg";
 import htmlIcon from "../../../../../public/images/logos/html.svg";
 import javaIcon from "../../../../../public/images/logos/java.svg";
+import cppIcon from "../../../../../public/images/logos/cpp.svg";
+import goIcon from "../../../../../public/images/logos/go.svg";
+import gcpIcon from "../../../../../public/images/logos/gcp.svg";
+import awss3Icon from "../../../../../public/images/logos/awss3.svg";
+import doIcon from "../../../../../public/images/logos/do.svg";
 import pythonIcon from "../../../../../public/images/logos/python.svg";
 import tsIcon from "../../../../../public/images/logos/typescript.svg";
 import jsIcon from "../../../../../public/images/logos/javascript.svg";
@@ -71,6 +76,24 @@ export default function Skills() {
           rel='noopener noreferrer'
         >
           <Image src={javaIcon} alt='Java' className='h-12' />
+        </a>
+      </div>
+      <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
+        <a
+          href='https://cplusplus.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image src={cppIcon} alt='Cpp' className='h-12' />
+        </a>
+      </div>
+      <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
+        <a
+          href='https://go.dev/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image src={goIcon} alt='Go' className='h-12' />
         </a>
       </div>
       <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
@@ -149,6 +172,33 @@ export default function Skills() {
           rel='noopener noreferrer'
         >
           <Image src={postgreIcon} alt='PostgreSQL' className='h-12' />
+        </a>
+      </div>
+      <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
+        <a
+          href='https://cloud.google.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image src={gcpIcon} alt='Google Cloud' className='h-12' />
+        </a>
+      </div>
+      <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
+        <a
+          href='https://aws.amazon.com/s3/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image src={awss3Icon} alt='aws s3' className='h-12' />
+        </a>
+      </div>
+      <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
+        <a
+          href='https://digitalocean.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image src={doIcon} alt='Digital Ocean' className='h-12' />
         </a>
       </div>
     </div>

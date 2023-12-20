@@ -23,7 +23,7 @@ export default function AboutSection() {
             <Typography variant='h2'>About</Typography>
           </div>
         </div>
-        <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-8 lg:px-16'>
+        <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-4 lg:px-16'>
           <Typography variant='body1' additionalStyles='text-neutral-600'>
             I&apos;m currently pursuing my degree in Computer Science at{" "}
             <span className='font-bold'>
