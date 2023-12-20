@@ -1,6 +1,6 @@
 export const typographyStyles = {
   h1: "text-6xl",
-  h2: "text-3xl sm:text-5xl lg:text-6xl md:font-light text-neutral-800 font-poppins",
+  h2: "text-3xl sm:text-4xl lg:text-6xl md:font-light text-neutral-800 font-poppins",
   h3: "text-3xl lg:text-4xl text-neutral-800",
   h4: "text-3xl",
   h5: "text-2xl",

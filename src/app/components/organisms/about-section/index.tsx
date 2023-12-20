@@ -14,7 +14,7 @@ export default function AboutSection() {
       <div className='flex flex-col gap-8 md:w-1/2 py-8 md:py-16 '>
         <div className='flex md:justify-end'>
           <div
-            className='w-1/3 md:w-1/2 pl-8 sm:pl-16 md:pr-8 md:pl-0'
+            className='w-1/3 md:w-1/2 pl-4 sm:pl-16 md:pr-8 md:pl-0'
             style={{
               background:
                 "linear-gradient(to bottom, #FFFFFF00 65%,  #f6dB00 35%)",
@@ -23,7 +23,7 @@ export default function AboutSection() {
             <Typography variant='h2'>About</Typography>
           </div>
         </div>
-        <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-4 lg:px-16'>
+        <div className='max-w-4xl mx-auto h-full flex flex-col gap-8 px-4 sm:px-8 lg:px-16'>
           <Typography variant='body1' additionalStyles='text-neutral-600'>
             I&apos;m currently pursuing my degree in Computer Science at{" "}
             <span className='font-bold'>

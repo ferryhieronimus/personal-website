@@ -34,7 +34,7 @@ const ProjectCard: React.FC<IProjectCard> = ({
         </div>
       </div>
       <div className='font-poppins text-sm md:text-base'>{desc}</div>
-      <ul className='mt-auto md:pt-4 text-xs md:text-sm flex flex-wrap gap-x-2 gap-y-2'>
+      <ul className='mt-auto pt-4 text-xs md:text-sm flex flex-wrap gap-x-2 gap-y-2'>
         {techStack &&
           techStack.map((tech, index) => <Chip key={index} text={tech} />)}
       </ul>
