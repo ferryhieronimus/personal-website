@@ -20,6 +20,7 @@ import nodeIcon from "../../../../../public/images/logos/node.svg";
 import nextIcon from "../../../../../public/images/logos/next.svg";
 import mongoIcon from "../../../../../public/images/logos/mongo.svg";
 import postgreIcon from "../../../../../public/images/logos/postgresql.svg";
+import postmanIcon from "../../../../../public/images/logos/postman.svg";
 
 export default function Skills() {
   return (
@@ -140,6 +141,15 @@ export default function Skills() {
           rel='noopener noreferrer'
         >
           <Image src={dockerIcon} alt='Docker' className='h-12' />
+        </a>
+      </div>
+      <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>
+        <a
+          href='https://postman.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image src={postmanIcon} alt='Postman' className='h-12' />
         </a>
       </div>
       <div className='rounded-lg flex items-center justify-center aspect-square cursor-pointer'>

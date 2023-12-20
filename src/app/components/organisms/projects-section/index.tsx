@@ -7,7 +7,7 @@ export default function ProjectsSection() {
       className='flex min-w-full items-center justify-center bg-zinc-500 py-8 md:py-16'
       id='projects'
     >
-      <div className='flex flex-col gap-4 md:gap-8 mx-4 md:mx-16`'>
+      <div className='flex flex-col gap-4 md:gap-8 mx-6 md:mx-16`'>
         <Typography variant='h2' additionalStyles='mx-auto md:opacity-50 text-center'>
           PROJECTS &amp; WORKS
         </Typography>

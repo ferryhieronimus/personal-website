@@ -11,7 +11,7 @@ const ProjectCard: React.FC<IProjectCard> = ({
   externalLink,
 }) => {
   return (
-    <div className='max-w-sm bg-[#ffffff80] text-neutral-800 p-6 md:p-8 flex flex-col gap-2 shadow-sm'>
+    <div className='max-w-xs lg:max-w-sm bg-[#ffffff80] text-neutral-800 p-6 md:p-8 flex flex-col gap-2 shadow-sm'>
       <div className='flex items-center justify-between gap-4 w-full'>
         <div className='text-2xl font-bold font-ubuntu'>{name}</div>
         <div className='flex gap-4 items-center'>
