@@ -40,7 +40,7 @@ export default function AboutSection() {
           </Typography>
 
           <a
-            href='https://drive.google.com/file/d/1rCh8wXwEYRUZTUljHVNiuV2Y2xRJi98T/view?usp=sharing'
+            href='https://drive.google.com/file/d/1tcDraRH5KOt8ibaVb6uH24AhTrMOWgzr/view?usp=sharing'
             target='_blank'
             rel='noopener noreferrer'
           >
