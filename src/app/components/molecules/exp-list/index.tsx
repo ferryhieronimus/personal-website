@@ -6,34 +6,34 @@ export default function ExpList() {
     <GlowWrapper opacity={0.25}>
       <div className='max-w-4xl mt-8 md:m-0'>
         <ExpRow
-          date='Mar 2023 - Present'
-          title='Web Development Team'
+          date='Feb 2024 - Present'
+          title='Backend Developer Intern'
+          location='Bank BRI'
+          desc="Developed and maintained BRI's Communication Network CRM backend services"
+        />
+        <ExpRow
+          date='Feb 2024 - Present'
+          title='Director of Web Development'
           location='RISTEK Fasilkom UI'
-          desc="Being involved in the development of website projects and participating in Ristek&apos;s internal classes"
+          desc="Managed the technical aspects of all RISTEK's projects"
         />
         <ExpRow
-          date='August 2023 - Present'
-          title='Teaching Assistant for Platform-based Development'
+          date='Feb - May 2024'
+          title='Teaching Assistant for Advanced Programming'
           location='Fasilkom UI'
-          desc='Teaches the fundamentals of web development, including HTML, CSS, JavaScript, Django, and Flutter'
+          desc='Aided in delivering lessons about more advanced topics of web development and software engineering'
         />
         <ExpRow
-          date='July - Nov 2023'
-          title='Full Stack Developer'
-          location='PMB Fasilkom UI'
-          desc='Updated the website visuals added new functionalities both on frontend and backend using Next.js and Express.js'
-        />
-        <ExpRow
-          date='Feb - Oct 2023'
-          title='Vice Head of IT'
-          location='KMK Fasilkom UI'
-          desc="Led a complete website overhaul, replacing the older React/Django codebase with the newer T3 stack (Next.js/tRPC/Prisma)."
+          date='Aug - Dec 2023'
+          title='Teaching Assistant for Platform-Based Development'
+          location='Fasilkom UI'
+          desc='Taught the fundamentals of web development using HTML, CSS, and JavaScript'
         />
         <ExpRow
           date='July - Oct 2023'
           title='Mentor Coordinator'
           location='PMB Fasilkom UI'
-          desc="Led 112 mentors in the Faculty&apos;s study orientation program and mentored a total of 8 students"
+          desc="Led 112 mentors in the Faculty's study orientation program and mentored a total of 8 students"
         />
       </div>
     </GlowWrapper>

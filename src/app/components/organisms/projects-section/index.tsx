@@ -8,11 +8,35 @@ export default function ProjectsSection() {
       id='projects'
     >
       <div className='flex flex-col gap-4 md:gap-8 mx-6 md:mx-16`'>
-        <Typography variant='h2' additionalStyles='mx-auto md:opacity-50 text-center'>
+        <Typography
+          variant='h2'
+          additionalStyles='mx-auto md:opacity-50 text-center'
+        >
           PROJECTS &amp; WORKS
         </Typography>
 
         <div className='flex flex-wrap gap-4 justify-center md:mt-4'>
+          <ProjectCard
+            techStack={["Next.js", "Typescript", "TailwindCSS"]}
+            name='RISTEK&apos;s Profile Website'
+            desc='RISTEK FASILKOM UI&apos;s 2024 Profile Website'
+            externalLink='https://ristek.cs.ui.ac.id/'
+          />
+
+          <ProjectCard
+            techStack={["Next.js", "Typescript", "TailwindCSS", "Go", "PostgreSQL", "Docker"]}
+            name='RISTEK CMS'
+            desc='CMS for RISTEK FASILKOM UI Profile Website'
+            externalLink='https://cms.ristek.cs.ui.ac.id/'
+          />
+
+          <ProjectCard
+            techStack={["Next.js", "Typescript", "TailwindCSS"]}
+            name='Cari Magang'
+            desc='A website that allows me to find magang Kampus Merdeka easily'
+            externalLink='https://cari-magang.vercel.app/'
+          />
+
           <ProjectCard
             techStack={[
               "Next.js",
@@ -32,13 +56,6 @@ export default function ProjectsSection() {
             name='Makin'
             desc='Makin is a X(formerly Twitter)-like social website that allows you to post opinions'
             githubLink='https://github.com/ferryhieronimus/makin-app'
-          />
-
-          <ProjectCard
-            techStack={["Next.js", "Typescript", "TailwindCSS"]}
-            name='Cari Magang'
-            desc='A website that allows me to find magang Kampus Merdeka easily'
-            externalLink='https://cari-magang.vercel.app/'
           />
 
           <ProjectCard

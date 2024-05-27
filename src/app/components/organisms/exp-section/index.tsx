@@ -32,7 +32,7 @@ export default function ExpSection() {
             This leads me to actively participate in a broad range of committees, organizations, and activities at my college.
             Below are some technologies I&apos;ve been working with:
           </Typography>
-          <GlowWrapper opacity={0.9}>
+          <GlowWrapper opacity={0.5}>
             <Skills />
           </GlowWrapper>
         </div>

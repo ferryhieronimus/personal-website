@@ -30,7 +30,7 @@ export default function AboutSection() {
               {" "}
               Faculty of Computer Science, Universitas Indonesia
             </span>
-            . As a third-year student, I found that my passion lies in web
+            . During my studies, I found that my passion lies in web
             development and software engineering.
           </Typography>
           <Typography variant='body1' additionalStyles='text-neutral-600'>
@@ -40,7 +40,7 @@ export default function AboutSection() {
           </Typography>
 
           <a
-            href='https://drive.google.com/file/d/1QTIt8Livd7LxmFQYx3nYHMpuQCsyYNPL/view'
+            href='https://drive.google.com/file/d/1pmdMitWBiKgI9Upm1Xj1nuLtF5YGLve5/view2'
             target='_blank'
             rel='noopener noreferrer'
           >
