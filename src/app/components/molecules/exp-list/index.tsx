@@ -12,7 +12,7 @@ export default function ExpList() {
           desc="Developed and maintained BRI's Communication Network CRM backend services"
         />
         <ExpRow
-          date='Feb 2024 - Present'
+          date='Jan 2024 - Present'
           title='Director of Web Development'
           location='RISTEK Fasilkom UI'
           desc="Managed the technical aspects of all RISTEK's projects"
